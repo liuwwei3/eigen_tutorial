@@ -15,3 +15,7 @@ endif ()
 add_executable(hello src/eigen_hello.cpp)
 
 target_link_libraries(hello ${EIGEN_LINK_LIBRARIES})
+
+add_executable(types src/types_and_options.cpp)
+
+target_link_libraries(types ${EIGEN_LINK_LIBRARIES})
